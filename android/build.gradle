@@ -22,6 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace = 'com.divyanshushekhar.flutter_process_text'
     compileSdkVersion 30
 
     defaultConfig {
